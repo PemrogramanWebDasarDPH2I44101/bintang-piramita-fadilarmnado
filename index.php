@@ -13,7 +13,29 @@
  </head>
 
  <body>
-
+  <?php
+ 	for ($i=3; $i > 0 ; $i--)
+ 	 { 
+ 	 	for ($j=$i; $j> 0; $j--) { 
+ 	 		# code...
+ 	 		echo "*";
+ 	 		
+ 	 	}
+ 		# code..
+ 		echo "<br>";
+ 	}
+echo "<br>";
+ 	for ($i=2; $i > 0 ; $i--)
+ 	 { 
+ 	 	for ($j=$i; $j> 0; $j--) { 
+ 	 		# code...
+ 	 		echo "*";
+ 	 		
+ 	 	}
+ 		# code..
+ 		echo "<br>";
+ 	}
+ ?>
  </body>
 
  </html>
